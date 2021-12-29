@@ -15,7 +15,6 @@
 - HTML : HyperText Markup Language, it builds the complete structure of the website.
 - Sass  : CSS syntax extension that provides more features than the normal CSS.
 - JavaScript : it's a programming language that it's used commonly with website to provide the behavior and to describe the functionalit of it.
-- ReactJS : it's an open-source JavaScript library that is used for building user interfaces specifically for single-page applications, that let's you create customable UI components for web applications.
 - Webpack : open-source static bundling tool.
 
 
