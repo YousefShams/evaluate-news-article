@@ -3,7 +3,11 @@ export function postReq (urlVal) {
     const resultsElement=document.getElementById("results");
     console.log(urlVal);
 
+<<<<<<< Updated upstream
     fetch("http://localhost:8000/",{
+=======
+    fetch("http://localhost:8090/",{
+>>>>>>> Stashed changes
         method:"POST",
         headers:{"Content-Type": "application/json"},
         credentials:"same-origin",
