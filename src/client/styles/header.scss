@@ -1,0 +1,15 @@
+body {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+        width: 100vw;
+        background-color: deepskyblue;
+
+        &::before {
+            content: "Header";
+            padding-left: 50px;
+        }
+    }
+    
+}
