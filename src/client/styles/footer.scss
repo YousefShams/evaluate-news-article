@@ -1,0 +1,25 @@
+body {
+
+    footer {
+        
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+        width: 100vw;
+        background-color: black;
+        text-align: center;
+
+        &::before {
+            content: "Footer";
+            padding-left: 50px;
+            color: aliceblue;
+            text-align: center;
+        }
+    }
+
+}
+
+
+
+
+

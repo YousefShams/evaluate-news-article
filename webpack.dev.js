@@ -11,11 +11,7 @@ module.exports = {
     devtool: 'source-map',
 
     devServer: {
-<<<<<<< Updated upstream:webpack.dev.js
-        port: 3000,
-=======
         port: 5000,
->>>>>>> Stashed changes:webpack.config.js
         watchContentBase:true,
     },
 
