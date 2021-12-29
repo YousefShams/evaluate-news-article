@@ -1,4 +1,4 @@
-import './styles/index.scss';
+import './styles/App.scss';
 import {postReq} from "./js/postReq";
 import {FormChange} from "./js/FormChange"
 import {FormSubmit} from "./js/FormSubmit"

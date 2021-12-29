@@ -13,10 +13,8 @@ module.exports={
     output: {
         path: path.join(__dirname, '/dist'),
         filename: 'main.js',
-        assetModuleFilename:"imgs/[name][ext]",
         library:"Client",
-        libraryTarget:"var",
-        clean:true
+        libraryTarget:"var"
     },
     
     module :{
@@ -30,12 +28,6 @@ module.exports={
             {
                 test: /\.s?css$/i,
                 use:[MiniCssExtractPlugin.loader,"css-loader", "sass-loader"]
-            },
-            
-
-            {
-                test:/\.(png|jpe?g|svg|gif)$/i,
-                type:"asset"
             }
         ]
     },
