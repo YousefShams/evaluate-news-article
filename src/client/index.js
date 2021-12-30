@@ -4,6 +4,8 @@ import {FormChange} from "./js/FormChange"
 import {FormSubmit} from "./js/FormSubmit"
 
 alert("Welcome!");
+document.getElementById("btn").disabled=true;
+
 
 export {
     FormChange,
