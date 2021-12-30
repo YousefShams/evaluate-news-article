@@ -18,7 +18,7 @@ export function FormChange() {
         else 
         regexMatch=true;
         if(regexMatch==true)
-        regexMatch=urlText.match(/(http(s?)(:\/\/))?((www\.)?)([a-zA-z0-9-_])+(\.(\w){3})(\/?)([a-zA-z0-9-_]+\/?)*/gim);
+        regexMatch=urlText.match(/(http(s?)(:\/\/))?((www\.)?)([a-zA-z0-9-_]+\.)?([a-zA-z0-9-_])+(\.(\w){3})(\/?)([a-zA-z0-9-_]+\/?)*/gim);
 
         if(regexMatch!=null){
             if(regexMatch[0]==urlText) {
