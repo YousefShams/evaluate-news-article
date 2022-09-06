@@ -4,7 +4,6 @@ const express=require("express");
 const app=express();
 const mockApi=require("./mockApi");
 const path=require("path");
-const api= require("./Api.js")
 require("dotenv").config();
 const {default :axios}=require("axios");
 const portNum=process.env.PORT;
